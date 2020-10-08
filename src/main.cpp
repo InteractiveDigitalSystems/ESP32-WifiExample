@@ -63,5 +63,5 @@ void loop() {
   // Serial.println("waiting for udp message...");
   int x = 100;
   int y = 100;
-  String sendMessage("init " + String(x) + " " + String(y));
+  sendMessage("init " + String(x) + " " + String(y));
 }
